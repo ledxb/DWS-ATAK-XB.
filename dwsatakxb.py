@@ -75,7 +75,10 @@ def dos2():
 
 
 def usage():
-print (''' 33[92m")
+print (''' \033[92m	dwsatakxb Dos Script v.1 http://www.canyalcin.com/
+	It is the end user's responsibility to obey all applicable laws.
+	It is just for server testing script. Your ip is visible. \n
+	usage : python3 dwsatakxb.py [-s] [-p] [-t]
  _____   _          __  _____            ___   _____       ___   _   _        __    __  _____  
 |  _  \ | |        / / /  ___/          /   | |_   _|     /   | | | / /       \ \  / / |  _  \ 
 | | | | | |  __   / /  | |___          / /| |   | |      / /| | | |/ /         \ \/ /  | |_| | 
