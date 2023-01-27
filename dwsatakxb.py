@@ -34,8 +34,8 @@ def my_bots():
 def bot_dwsatakxbing(url):
 	try:
 		while True:
-			req = urllib.request.urlopen(urllib.request.Request(url,dws atak xbs={'User-Agent': random.choice(uagent)}))
-			print("\033[94mbot is dws atak xbing...\033[0m")
+			req = urllib.request.urlopen(urllib.request.Request(url,dwsatakxbs={'User-Agent': random.choice(uagent)}))
+			print("\033[94mbot is dwsatakxbing...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
