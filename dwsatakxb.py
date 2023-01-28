@@ -123,11 +123,11 @@ def get_parameters():
 		thr = opts.turbo
 
 
-# reading dwsatakxbs
+# reading headers
 global data
-headers = open("dws atak xb.txt", "r")
-data = dwsatakxb.read()
-dwsatakxb.close()
+headers = open("headers.txt", "r")
+data = headers.read()
+headers.close()
 #task queue are q,w
 q = Queue()
 w = Queue()
